@@ -50,10 +50,10 @@ div{
     background-color: white;
     text-align: center;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
-    
+    height: 60vh;
 }
 .Head{
     display: flex;
@@ -128,4 +128,27 @@ div{
     align-items: center;
     max-width: 200px;
     color:gray;
+}
+
+.v2{
+    display: flex;
+    background-color:#E5E7EB;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+.v2 span{
+    text-align: right;
+    position: relative;
+    left: 20%;
+    font-weight: 600;
+    font-size: 32px;
+    color:#1F2937
+}
+.v2 h2 {
+    color:#1F2937;
+    text-align: left;
+    width: 60%;
+    font-weight: 400;
 }
